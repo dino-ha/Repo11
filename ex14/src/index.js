@@ -16,6 +16,7 @@ function bubbleSort(arr){
 
         arr[x] = largestNum; 
         z++;
+        largestNum = 0;
 
     }
 
