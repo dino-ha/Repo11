@@ -9,9 +9,11 @@ function bubbleSort(arr){
         for (var y = 0; y < arr.length-z; y++){
 
             if (arr[y] > largestNum){
+                
+                if (arr[y] != arr[x]){
 
                 largestNum = arr[y];
-            }
+            }}
         }
 
         arr[x] = largestNum; 
